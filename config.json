@@ -16,6 +16,7 @@
     "rust": { "command": "rust-analyzer", "args": [] },
     "java": { "command": "jdtls", "args": [] },
     "cpp": { "command": "clangd", "args": [] },
-    "csharp": { "command": "omnisharp", "args": ["--languageserver"] }
+    "csharp": { "command": "omnisharp", "args": ["--languageserver"] },
+    "markdown": { "command": "marksman", "args": ["server"] }
   }
 }
