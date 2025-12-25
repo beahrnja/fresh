@@ -10,13 +10,20 @@
     "json": { "command": "vscode-json-languageserver", "args": ["--stdio"] },
     "html": { "command": "vscode-html-languageserver", "args": ["--stdio"] },
     "css": { "command": "vscode-css-languageserver", "args": ["--stdio"] },
-    "javascript": { "command": "typescript-language-server", "args": ["--stdio"] },
-    "typescript": { "command": "typescript-language-server", "args": ["--stdio"] },
+    "javascript": {
+      "command": "typescript-language-server",
+      "args": ["--stdio"]
+    },
+    "typescript": {
+      "command": "typescript-language-server",
+      "args": ["--stdio"]
+    },
     "python": { "command": "pylsp", "args": [] },
     "rust": { "command": "rust-analyzer", "args": [] },
     "java": { "command": "jdtls", "args": [] },
     "cpp": { "command": "clangd", "args": [] },
     "csharp": { "command": "omnisharp", "args": ["--languageserver"] },
-    "markdown": { "command": "marksman", "args": ["server"] }
+    "markdown": { "command": "marksman", "args": ["server"] },
+    "bash": { "command": "bash-language-server", "args": ["start"] }
   }
 }
