@@ -1,0 +1,21 @@
+{
+  "theme": "high-contrast",
+  "editor": {
+    "tab_size": 4,
+    "line_numbers": true,
+    "mouse_support": true,
+    "signature_help": false
+  },
+  "lsp": {
+    "json": { "command": "vscode-json-languageserver", "args": ["--stdio"] },
+    "html": { "command": "vscode-html-languageserver", "args": ["--stdio"] },
+    "css": { "command": "vscode-css-languageserver", "args": ["--stdio"] },
+    "javascript": { "command": "typescript-language-server", "args": ["--stdio"] },
+    "typescript": { "command": "typescript-language-server", "args": ["--stdio"] },
+    "python": { "command": "pylsp", "args": [] },
+    "rust": { "command": "rust-analyzer", "args": [] },
+    "java": { "command": "jdtls", "args": [] },
+    "cpp": { "command": "clangd", "args": [] },
+    "csharp": { "command": "omnisharp", "args": ["--languageserver"] }
+  }
+}
