@@ -9,6 +9,8 @@
     "suggest_buffer_completions": true
   },
   "lsp": {
+    "auto_show_completion": true,
+    "completion_trigger_after_length": 1,
     "json": { "command": "vscode-json-languageserver", "args": ["--stdio"] },
     "html": { "command": "vscode-html-languageserver", "args": ["--stdio"] },
     "css": { "command": "vscode-css-languageserver", "args": ["--stdio"] },
