@@ -24,6 +24,7 @@
     "cpp": { "command": "clangd", "args": [] },
     "csharp": { "command": "omnisharp", "args": ["--languageserver"] },
     "markdown": { "command": "marksman", "args": ["server"] },
-    "bash": { "command": "bash-language-server", "args": ["start"] }
+    "bash": { "command": "bash-language-server", "args": ["start"] },
+    "lua": { "command": "lua-language-server", "args": [] }
   }
 }
