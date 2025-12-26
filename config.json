@@ -4,7 +4,9 @@
     "tab_size": 4,
     "line_numbers": true,
     "mouse_support": true,
-    "signature_help": false
+    "signature_help": false,
+    "autocomplete": true,
+    "suggest_buffer_completions": true
   },
   "lsp": {
     "json": { "command": "vscode-json-languageserver", "args": ["--stdio"] },
